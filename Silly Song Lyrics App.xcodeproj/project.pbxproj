@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDE7331C207B75830055546A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE7331B207B75830055546A /* AppDelegate.swift */; };
+		EDE7331E207B75830055546A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE7331D207B75830055546A /* ViewController.swift */; };
+		EDE73321207B75830055546A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE7331F207B75830055546A /* Main.storyboard */; };
+		EDE73323207B75830055546A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE73322207B75830055546A /* Assets.xcassets */; };
+		EDE73326207B75830055546A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE73324207B75830055546A /* LaunchScreen.storyboard */; };
+		EDEF8144207CB6670029E33B /* WelcomeScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEF8143207CB6670029E33B /* WelcomeScreen.png */; };
+		EDEF8146207CBE9D0029E33B /* WelcomeScreen3.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEF8145207CBE9D0029E33B /* WelcomeScreen3.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDE73318207B75830055546A /* Silly Song Lyrics App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Silly Song Lyrics App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE7331B207B75830055546A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDE7331D207B75830055546A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDE73320207B75830055546A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDE73322207B75830055546A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDE73325207B75830055546A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDE73327207B75830055546A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDEF8143207CB6670029E33B /* WelcomeScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WelcomeScreen.png; path = ../../../Downloads/WelcomeScreen.png; sourceTree = "<group>"; };
+		EDEF8145207CBE9D0029E33B /* WelcomeScreen3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WelcomeScreen3.png; path = ../../../Downloads/WelcomeScreen3.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDE73315207B75830055546A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDE7330F207B75820055546A = {
+			isa = PBXGroup;
+			children = (
+				EDE7331A207B75830055546A /* Silly Song Lyrics App */,
+				EDE73319207B75830055546A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDE73319207B75830055546A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDE73318207B75830055546A /* Silly Song Lyrics App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDE7331A207B75830055546A /* Silly Song Lyrics App */ = {
+			isa = PBXGroup;
+			children = (
+				EDEF8145207CBE9D0029E33B /* WelcomeScreen3.png */,
+				EDEF8143207CB6670029E33B /* WelcomeScreen.png */,
+				EDE7331B207B75830055546A /* AppDelegate.swift */,
+				EDE7331D207B75830055546A /* ViewController.swift */,
+				EDE7331F207B75830055546A /* Main.storyboard */,
+				EDE73322207B75830055546A /* Assets.xcassets */,
+				EDE73324207B75830055546A /* LaunchScreen.storyboard */,
+				EDE73327207B75830055546A /* Info.plist */,
+			);
+			path = "Silly Song Lyrics App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDE73317207B75830055546A /* Silly Song Lyrics App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE7332A207B75830055546A /* Build configuration list for PBXNativeTarget "Silly Song Lyrics App" */;
+			buildPhases = (
+				EDE73314207B75830055546A /* Sources */,
+				EDE73315207B75830055546A /* Frameworks */,
+				EDE73316207B75830055546A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Silly Song Lyrics App";
+			productName = "Silly Song Lyrics App";
+			productReference = EDE73318207B75830055546A /* Silly Song Lyrics App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDE73310207B75820055546A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = com.Simplicity;
+				TargetAttributes = {
+					EDE73317207B75830055546A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EDE73313207B75820055546A /* Build configuration list for PBXProject "Silly Song Lyrics App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDE7330F207B75820055546A;
+			productRefGroup = EDE73319207B75830055546A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDE73317207B75830055546A /* Silly Song Lyrics App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDE73316207B75830055546A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEF8146207CBE9D0029E33B /* WelcomeScreen3.png in Resources */,
+				EDE73326207B75830055546A /* LaunchScreen.storyboard in Resources */,
+				EDE73323207B75830055546A /* Assets.xcassets in Resources */,
+				EDE73321207B75830055546A /* Main.storyboard in Resources */,
+				EDEF8144207CB6670029E33B /* WelcomeScreen.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDE73314207B75830055546A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE7331E207B75830055546A /* ViewController.swift in Sources */,
+				EDE7331C207B75830055546A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDE7331F207B75830055546A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDE73320207B75830055546A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDE73324207B75830055546A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDE73325207B75830055546A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDE73328207B75830055546A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDE73329207B75830055546A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDE7332B207B75830055546A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Silly Song Lyrics App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Simplicity.Silly-Song-Lyrics-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDE7332C207B75830055546A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Silly Song Lyrics App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Simplicity.Silly-Song-Lyrics-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDE73313207B75820055546A /* Build configuration list for PBXProject "Silly Song Lyrics App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE73328207B75830055546A /* Debug */,
+				EDE73329207B75830055546A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE7332A207B75830055546A /* Build configuration list for PBXNativeTarget "Silly Song Lyrics App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE7332B207B75830055546A /* Debug */,
+				EDE7332C207B75830055546A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDE73310207B75820055546A /* Project object */;
+}
